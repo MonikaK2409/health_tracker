@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .exercise {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  body{
+    margin: 0;
+  }
+  header img{
+    width:12%;
+    height: 12%;
+  }
+  header{
+    position:relative;
+    width: 100%;
+  }
+  header img{
+    width:12%;
+    height: 12%;
+  }
+  header{
+    position:relative;
+    width: 100%;
+  }
+  header div{
+    background-color:rgb(253, 249, 245);
+    color: rgb(223, 216, 216);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+  }
+  img{
+    margin-left: 10%;
+  }
+  header ul{
+    list-style: none;
+    text-transform: uppercase;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+   text-decoration: none;
+  }
+  header li{
+    margin: 5px;
+  }
+  a{
+    text-decoration: none;
+  }
+  .home a{
+    background-image: url("../WAD_project/images/image/blue2.png");
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 15px;
+  text-decoration: none;
+  box-shadow: 2px 4px 8px rgb(122, 120, 120);
+  }
+  .home a:hover{
+    background-image: url("../WAD_project/images/image/orange.png");
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   
+  }
+  .signin a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 8px;
+    border: 2px solid rgb(50, 50, 87);
+    border-radius: 15px;
+    box-shadow: 2px 4px 8px rgb(122, 120, 120);
+  }
+  .signin a:hover{
+    border-radius: 15px;
+    border: 2px solid rgb(250, 121, 56);
+    color:  rgb(250, 121, 56);
+    padding: 8px;
+  } 
+  
+  a:hover{
+    color: rgb(77, 77, 90);
+   
+  }
+  h1{
+    margin: 20px 10%   ;
+    font-family: 'PT Serif', sans-serif;
+   background-color: rgb(45, 45, 131);
+   color: white;
+
+   font-size: 40px;
+   border-radius: 10px;
+   text-align: left;
+   padding-left: 10px;
+}
+  .exercise{
+    margin: 20px 10%;
+    padding: 20px;
+    height: 200px;
+    width: 35%;
+    border: 1px solid rgb(45, 45, 131);
+    color: rgb(45, 45, 131);
+    font-size: 20px;
+    background-color: rgb(240, 240, 245);
+  }
+  #data{
+    margin: 3% 10%; 
+     font-family: 'Poppins', sans-serif; 
+    color: rgb(36, 36, 57);
+     }
+     #info{
+      margin: 3% 10%; 
+      font-family: 'Poppins', sans-serif; 
+     color: rgb(36, 36, 57);
+         
+     }
+     body{
+      text-align: left;
+     }

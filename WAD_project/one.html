@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="one.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:wght@300&family=PT+Serif&family=Shantell+Sans&display=swap" rel="stylesheet">
+  <title>Calorie Tracker</title>
+</head>
+<body>
+  <header>
+    <div>
+        <img src="../WAD_project/images/logo/logo_new.png" alt="logo">
+        <!-- <ul><h1>chalorie tracker</h1></ul>u -->
+        <ul id="signin">
+        
+          <li class="home"><a href="main.html">home </a></li>
+          <li class="signin"> <a href="login.html" > sign in</a></li>
+    <li class="home"><a href="login.html"> login</a></li>
+    </ul>
+    </div>
+    
+        </header>
+  <br>
+  <h1>Calorie Tracker</h1>
+
+<p>Welcome to our website! We're here to shed light on why tracking your calorie intake is crucial for maintaining a healthy lifestyle. Whether you're looking to lose weight, gain muscle, or simply improve your overall well-being, understanding and monitoring your daily calorie consumption is a fundamental step</p>
+
+
+
+
+
+<div class="container">
+
+  <!-- breakfast  -->
+  <div class="meal">
+
+  <h2>Breakfast</h2>
+  <section class="brkfastTemplate">
+  </section>
+  <button class="addBrkfast">+</button>
+
+<button id="calculateBrkfastButton">Calculate Calories</button>
+  <div id="resultBrkfast"></div>
+
+</div>
+<!-- lunch  -->
+<div class="meal">
+  <h2>Lunch</h2>
+  <section class="lunchTemplate">
+
+  </section>
+  <button class="addLunch">+</button>
+
+<button id="calculateLunchButton">Calculate Calories</button>
+  <div id="resultLunchfast"></div>
+</div>
+
+
+
+</div>
+<div class="container">
+
+<!-- snacks  -->
+  <div class="meal">
+    <h2>Snacks</h2>
+<section class="snacksTemplate">
+</section>
+<button class="addSnacks">+</button>
+ 
+  <button id="calculateSnacksButton">Calculate Calories</button>
+  <div id="resultSnacks"></div>
+ </div>
+
+  <!-- dinner  -->
+  <div class="meal">
+    <h2>Dinner</h2>
+    <section class="dinnerTemplate">
+    </section>
+    <button class="addDinnner">+</button>
+ 
+  <button id="calculateDinnerButton">Calculate Calories</button>
+  <div id="resultDinner"></div>
+ </div>
+
+</div>
+
+
+
+
+
+
+
+  <script src="snacks.js"></script>
+  <script src="dinner.js"></script>
+  <script src="breakFast.js"></script>
+  <script src="lunch.js"></script>
+</body>
+</html>

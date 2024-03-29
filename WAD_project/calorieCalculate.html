@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../WAD_project/head.css">
+    <link rel="stylesheet" href="../WAD_project/calorieCalculate.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Exo+2:wght@100;600&family=Fredoka+One&family=Lato:ital@1&family=Lobster&family=Shadows+Into+Light&family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:wght@300&family=PT+Serif&family=Shantell+Sans&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate calorie</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="../WAD_project/images/logo/logo_new.png" alt="logo">
+            <!-- <ul><h1>chalorie tracker</h1></ul>u -->
+            <ul id="signin">
+            
+              <li class="home"><a href="file:///C:/Users/anand/OneDrive/Desktop/work/web%20development/WAD_project/main.html">home </a></li>
+              <li class="signin"> <a href="www.nisha.com" > sign in</a></li>
+        <li class="home"><a href="www.nisha.com"> login</a></li>
+        </ul>
+        </div>
+        
+    </header>
+    
+   <!-- main section  -->
+    <main>
+        <div id="calhead">
+            <h2>Calculate daily calorie burn</h2>
+        </div>
+        <div id="formflex">
+        <div id="form1">
+            <form>
+                <div>
+                  <label for="intensity">Intensity:</label>
+                  <select id="intensity">
+                  
+                    <option value="low">Low</option>
+                    <option value="moderate">Moderate</option>
+                    <option value="high">High</option>
+                  </select>
+                </div>
+                <br>
+                <div>
+                  <label for="duration">Duration (in minutes):</label>
+                  <input type="number" id="duration">
+                </div>
+                <br>
+                <div>
+                  <label for="frequency">Frequency (per week):</label>
+                  <input type="number" id="frequency">
+                </div>
+                <button type="button" onclick="calculate()">Calculate Calories Burnt</button>
+              </form>
+              <div id="result"></div>
+              <script src="../WAD_project/calorie.js"></script>
+        </div>
+        
+        <div id="form2">
+       
+        </div>
+        </div>
+        <section id="data">
+                    <h3>What is a calorie? </h3>
+        <p>Most people think of calories as only having to do with food and weight loss. However, a calorie is a unit of heat energy. A calorie is the amount of energy that is needed to raise 1 gram (g) of water by 1°C.  </p>
+
+        <p>  This measurement can be applied to lots of different energy releasing mechanisms outside of the human body. For the human body, calories are a measure of how much energy the body needs to function.</p>
+        <p>Food contains calories. Different food has different calorie counts, meaning that each food has a different amount of potential energy.</p>
+
+        <p>    There are three basic types of foods that make up all the food that humans eat: carbohydrates, proteins, and fats. These three different types of food have varying amounts of potential energy per g.</p>
+            <p>The calorie breakdownsTrusted Source per g for each food type are as follows:</p>
+
+            <ul>
+                <li> <strong>Carbohydrates:</strong> 4 calories per g</li>
+                <li><strong>proteins:</strong>4 calories per g</li>
+                <li><strong>Fats:</strong>9 calories per g</li>
+
+            </ul>
+
+            <h3>Calculating daily calorie burn</h3>
+            <p>Being able to work out how many calories are burned each day is essential to any person looking to maintain, lose, or gain weight.</p>
+            <p>Knowing what factors contribute to calorie burning can help a person alter their diet or exercise program to accommodate the goal.</p>
+        <p>An accepted method to calculate how many calories a person burns each day is the Harris-Benedict Formula.</p>
+        <p>Originally developed in the early 20th century, it was revamped in 1984 and again in 1990 to help improve its accuracy.</p>
+     <p>The Harris-Benedict formula is a relatively simple process in which a person multiplies their basal metabolic rate (BMR) by their average daily activity level.</p>
+    <p>BMR is the number of calories a person burns by simply existing. BMR varies based on age, sex, size, and genetics. To calculate BMR, a person uses inches for height, pounds for weight, and years for age in the following formulas:</p>
+    <ul>
+        <li><strong> For men:</strong> 66 + (6.2 x weight) + (12.7 x height) – (6.76 x age)</li>
+   <li><strong>For women:</strong> 655.1 + (4.35 x weight) + (4.7 x height) – (4.7 x age)</li>
+    </ul>
+    <p>The results of the BMR calculation are then used to multiply against the average daily activity of the person. Points are awarded based on how active a person is.</p>
+<p>Points for activity levels are as follows:</p>    
+<ul>
+    <li>1.2 points for a person who does little to no exercise</li>
+    <li>1.37 points for a slightly active person who does light exercise 1–3 days a week</li>
+    <li>1.55 points for a moderately active person who performs moderate exercise 3–5 days a week</li>
+    <li>1.725 points for a very active person who exercises hard 6–7 days a week</li>
+    <li>1.9 points for an extra active person who either has a physically demanding job or has a particularly challenging exercise routine</li>
+</ul>
+
+<h3>Factors affecting calorie burn</h3>
+
+<ul>
+    <li><strong> Age:</strong>  the older a person is, the fewer calories burned per day.</li>
+    <li><strong>Sex:</strong> men burn more calories than women.</li>
+    <li><strong>Amount of daily activity: </strong>those who move more, burn more calories.</li>
+    <li><strong>Body composition:</strong> those with more muscle burn more calories than those who have less muscle.</li>
+    <li><strong>Body size:</strong> larger people burn more calories than smaller people, even at rest.</li>
+    <li><strong>Thermogenesis:</strong> this is the amount of energy the body uses to break down food.</li>
+    <li><strong>Pregnancy: </strong>pregnant women burn more calories than non-pregnant women.</li>
+    <li><strong>Breast-feeding:</strong> women who are breast-feeding also burn extra calories.</li>
+</ul>
+</section>
+
+</main>
+</body>
+</html>
